@@ -1,11 +1,10 @@
-var app = angular.module('fizzbuzzApp', []);
+var module = angular.module('fizzbuzz.controllers', []);
 
-app.controller('fizzbuzzController', ['$scope', function($scope){
+module.controller('main', ['$scope', function($scope){
     $scope.nextNumber = 1;
     $scope.output = [];
 
     $scope.next = function() {
     	$scope.output.push("?");
     };
-
-}]);
+}]); 
