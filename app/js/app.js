@@ -1,4 +1,4 @@
 angular.module('fizzbuzz', [
-  'fizzbuzz.services',
-  'fizzbuzz.controllers'
+  'fizzbuzz.controllers',
+  'fizzbuzz.services'
 ])
